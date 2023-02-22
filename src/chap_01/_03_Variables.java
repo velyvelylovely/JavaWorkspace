@@ -26,3 +26,4 @@ public class _03_Variables {
         System.out.println(l);
     }
 }
+
