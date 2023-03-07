@@ -25,6 +25,7 @@ public class _10_break {
             System.out.println(index + "번 손님, 주문하신 치킨 나왔습니다.");
             if (index == max) {
                 System.out.println("금일 재료가 모두 소진되었습니다.");
+                break;
             }
             index++;
         }
