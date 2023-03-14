@@ -28,7 +28,7 @@ public class _04_MultiArrayLoop {
 
         for (int i = 0; i < seats2.length; i++) { // seats2.length 는 배열 seats2 중괄호 안의 갯수 3 이다.
             for (int j = 0; j < seats2[i].length; j++) { // seats2[0] 인덱스에 해당하는 length 는 3, [1] 은 4, [2] 는 5 이다.
-                System.out.print(seats2[i][j] + " ");
+                System.out.print(seats2[i][j] + " "); // A1 A2 A3...
             }
             System.out.println();
         }
